@@ -103,57 +103,21 @@ nav a#pull {
     }  
 }  
 
-@media only screen and (max-width : 600px) {  
-    nav {  
-        border-bottom: 0;  
-    }  
-    nav ul {  
-    	width: 100%;
-        display: none;  
-        height: auto;  
-    }  
-    nav a#pull {  
-        display: block;  
-        background-color: #283744;  
-        width: 100%;  
-        position: relative;  
-    }  
-     nav li{
-     	padding-left: 0;
-     	float:none;
-     	padding-right: 2%;
-     }
-
-}  
-
-
-@media only screen and (max-width : 320px) {  
-    nav li {  
-        display: block;  
-        float: none;  
-        width: 100%;  
-        padding-left: 0;
-    }  
-    nav li a {  
-        border-bottom: 1px solid #576979;  
-    }  
-} 
-
 .block{
-	width: 100%;
-	height:950px;
-	background-image: url('../img/class.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
+    width: 100%;
+    height:950px;
+    background-image: url('../img/class.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .text{
-	margin-top: 0;
-	text-align: center;
-	color: #fff;
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
     font-size: 25px;
     font-weight: 600;
-	font-family: ArialArmST;
+    font-family: ArialArmST;
 }
 
 .text:first-child{
@@ -177,3 +141,65 @@ nav a#pull {
     cursor: pointer;
     transition: all .3s ease;
 }
+
+
+@media only screen and (max-width: 768px){
+         .btn{
+        height: 30px;
+        margin-left: 37%;
+     }
+     .text{
+        font-size:20px;
+     }
+}
+
+@media only screen and (max-width : 600px) {  
+    nav {  
+        border-bottom: 0;  
+    }  
+    nav ul {  
+    	width: 100%;
+        display: none;  
+        height: auto;  
+    }  
+    nav a#pull {  
+        display: block;  
+        background-color: #283744;  
+        width: 100%;  
+        position: relative;  
+    }  
+     nav li{
+     	padding-left: 0;
+     	float:none;
+     	padding-right: 2%;
+     }
+     .btn{
+        height: 30px;
+        margin-left: 35%;
+     }
+     .text{
+        font-size:20px;
+     }
+}  
+
+
+@media only screen and (max-width : 320px) {  
+    nav li {  
+        display: block;  
+        float: none;  
+        width: 100%;  
+        padding-left: 0;
+    }  
+    nav li a {  
+        border-bottom: 1px solid #576979;  
+    }  
+         .btn{
+        height: 20px;
+        margin-left: 26%;
+        font-size:10px;
+     }
+     .text{
+        font-size:15px;
+     }
+} 
+

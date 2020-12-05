@@ -111,15 +111,6 @@ nav a#pull {
         width: 100%;  
         position: relative;  
     }  
-    nav a#pull:after {  
-        content:"";  
-        width: 30px;  
-        height: 30px;  
-        display: inline-block;  
-        position: absolute;  
-        right: 15px;  
-        top: 10px;  
-    }  
      nav li{
      	padding-left: 0;
      	float:none;
@@ -139,10 +130,4 @@ nav a#pull {
     nav li a {  
         border-bottom: 1px solid #576979;  
     }  
-}  
-
-.block{
-	width: 100%;
-	height: 250px;
-	background-image: url("")
-}
+} 

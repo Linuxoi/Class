@@ -1,6 +1,13 @@
 @font-face { 
   font-family: 'ArialArmST';
-  src: url('fonts/ArialArmST.ttf') format('truetype');
+  src: url('../fonts/ArialArmST.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'ArmLongTytle';
+  src: url('../fonts/ArmLongTytle.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -131,3 +138,42 @@ nav a#pull {
         border-bottom: 1px solid #576979;  
     }  
 } 
+
+.block{
+	width: 100%;
+	height:950px;
+	background-image: url('../img/class.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.text{
+	margin-top: 0;
+	text-align: center;
+	color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+	font-family: ArialArmST;
+}
+
+.text:first-child{
+    padding-top: 20%;
+}
+
+.btn{
+    border:2px solid white;
+    background: none;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 43%;
+}
+
+.btn:hover{
+    border:none;
+    background-color: #fff;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}

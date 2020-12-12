@@ -15,6 +15,7 @@ input:focus,.sub:focus
 ::placeholder{
   font-size:12.5px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .sub:hover{
@@ -36,12 +37,20 @@ form{
   margin-left:37%;
   margin-top: 1%;
   border-radius: 5px;
+      background: linear-gradient(45deg, #8c8c8c, #ffffff00);
 }
 
 .text-p p{
   font-size:18.3px;
   padding-left: 4%;
   padding-top: 7px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 450px){
+    .text-p p{
+    font-size: 17px;
+  }
 }
 
 @media screen and (max-width: 450px){

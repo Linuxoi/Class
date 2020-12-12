@@ -43,3 +43,23 @@ form{
   padding-left: 4%;
   padding-top: 7px;
 }
+
+@media screen and (max-width: 450px){
+  form{
+    margin-left: 17%;
+  }
+  .text-p{
+    margin-left: 18%;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 360px){
+  form{
+    margin-left: 6%;
+  }
+  .text-p{
+    margin-left: 7%;
+    margin-top: 3%;
+  }
+}

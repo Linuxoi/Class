@@ -2,10 +2,10 @@ let clickCount = 0
 
 
 $(".sub").click(function(){
-	var pay = parseInt($('#pay').val());
-	var month = parseInt($('#month').val());
-	var per = parseInt($('#per').val());
 		clickCount = clickCount + 1;
+		var pay = parseInt($('#pay').val());
+		var month = parseInt($('#month').val());
+		var per = parseInt($('#per').val());
 		per = month * per
 		pay = pay + pay*per/100
 		$('#text-div').addClass('text-p')
